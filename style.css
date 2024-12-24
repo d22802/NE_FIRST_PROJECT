@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.5s ease;
+}
+
+.header {
+    text-align: center;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.parking-spots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.spot {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #007BFF;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.spot.free:hover {
+    background-color: #82e0aa;
+}
+
+.spot.taken {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    margin-top: 15%;
+}
+
+.hero-title {
+    font-size: 3em;
+    color: white;
+}
+
+.hero-subtitle {
+    font-size: 1.5em;
+    color: #f9f9f9;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.secondary {
+    background-color: #6c757d;
+}
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    transition: background-color 0.3s;
+}
+
+.user:hover {
+    background-color: #efefef;
+}
+
+.management button {
+    margin-left: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.management button:hover {
+    background-color: #218838;
+}
+
+.reservation {
+    padding: 10px;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #f0f8ff;
+}
